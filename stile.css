@@ -9,32 +9,21 @@ body {
 セレクタ{
     color:white;
 }
-
-header {
-    width: 100%; /* 幅いっぱいを指定 */
-    height: 50px; /* 高さを50pxに指定 */
-    background: #CCC; /* 背景色にグレーを指定 */
-    padding: 20px 50px; /* ヘッダーに上下左右それぞれ余白を指定 */
-    box-sizing: border-box; /* padding分を含んで幅を100%にするため */
-    position: fixed; /* ウィンドウを基準に画面に固定 */
-    top: 0; /* 上下の固定位置を上から0pxにする */
-    left: 0; /* 左右の固定位置を左から0pxにする */
-    display: flex; /* 中の要素を横並びにする */
-    align-items: center; /* 中の要素を上下中央に並べる */
-}
-
-header .gnav .menu {
-    display: flex; /* 中の要素を横並びにする */
-}
-
-header .gnav .menu li {
-    list-style: none; /* リストの[・]を消す */
-}
-
-header .gnav .menu li + li {
-    margin-left: 40px; /* メニューそれぞれに間隔をあけるため */
-}
-
-main {
-    height: 100vw; /* スクロールの演出を見れるようにmainに高さを指定 */
-}
+.btn-flat-border {
+	display: inline-block;
+	padding: 0.3em 1em;
+	text-decoration: none;
+	color: #67c5ff;
+	border: solid 2px #67c5ff;
+	border-radius: 3px;
+	transition: .4s;
+  }
+  
+  .btn-flat-border:hover {
+	background: #67c5ff;
+	color: white;
+  }
+  .container{
+	text-align:center;
+	background-color:#ffe2e0;
+  }
