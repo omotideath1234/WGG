@@ -35,7 +35,7 @@ h2 {
     margin: 0 0 30px 0;
     letter-spacing: 5px;
 }
-p {
+.box p {
     width: 50%;
     line-height: 2;
     display: inline-block;
@@ -71,16 +71,33 @@ a {
     margin: 110px auto 0;
     letter-spacing: 2px;
 }
+.box2 {
+    padding: 0.5em 1em;
+    margin: 2em 0;
+    font-weight: bold;
+    color: #6091d3;/*文字色*/
+    background: #FFF;
+    border: solid 3px #6091d3;/*線*/
+    border-radius: 10px;/*角の丸み*/
+}
+.box2 p {
+    margin: 0; 
+    padding: 0;
+}
         </style>
 </head><!-- ここまでがうらの設定ですよという宣言 -->
 <body><!-- ここからページに表示される内容ですよという宣言 -->
 	<h1>メンバー一覧</h1><!-- 見出し -->
-<p>WGGのメンバーを見ることができます</p><!-- 本文 -->
-<h2>みやちゃん</h2>
-<h2>Rey.MiuMiu(ミュゥ)</h2>
-<h2>そーら！</h2>
-<h2>おもち</h2>
-<h2>薬師寺はるか</h2>
-<h2>Hinatan</h2>
+	<div class="box">
+<p>WGGのメンバーを見ることができます </p><!-- 本文 -->
+</div>
+<div class="box2">
+    <p>みやちゃん</p>
+	<p>Rey.miumiu</p>
+	<p>そーら！</p>
+	<p>おもち</p>
+	<p>藥師寺はるか</p>
+	<p>Hinatan</p>
+</div>
 </body><!-- ここまでがページに表示される内容ですよという宣言 -->
 </html><!-- ここまでがHTMLですという終わりの宣言 -->
